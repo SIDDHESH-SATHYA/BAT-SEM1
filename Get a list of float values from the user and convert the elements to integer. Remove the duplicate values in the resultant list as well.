@@ -1,0 +1,7 @@
+x=int(input('enter the length of the list'))
+l=[]
+for i in range(0,x,1):
+      y=float(input('enter the float value:'))
+      l.append(round(y))
+l=list(dict.fromkeys(l))
+print(l)
