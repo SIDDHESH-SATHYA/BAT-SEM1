@@ -1,0 +1,16 @@
+x=int(input('enter the length of the list:'))
+l=[]
+EvenSum=0
+OddAverage=0
+oc=0
+for i in range(0,x,1):
+    l.append(int(input('enter no:')))
+for j in range(0,x,1):
+    if j%2==0:
+        EvenSum=EvenSum+l[j]
+    else:
+        OddAverage=OddAverage+l[j]
+        oc+=1
+OddAverage=OddAverage/oc
+print('EVEN SUM:',EvenSum)
+print('ODD AVERAGE',OddAverage)
