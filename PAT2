@@ -1,0 +1,21 @@
+n=0
+d={}
+while n<12:
+  a=input()
+  b=input()
+  n+=1
+  d[a]=b
+srch=input()
+x=d[srch]
+l=[]
+for k,v in d.items():
+  if v==x:
+    l.append(k)
+  else:
+    continue
+d1={}
+d1[x]=l
+print(x)
+print(len(l))
+print(d1)
+print("22brs1213")
