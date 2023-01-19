@@ -1,0 +1,21 @@
+a=input()
+d={}
+def func(n):
+  uc=0
+  lc=0
+  sp=0
+  for i in n:
+    if i.isupper():
+      uc+=1
+    elif i.islower():
+      lc+=1
+    elif i.isdigit():
+      continue
+    else:
+      sp+=1
+  d['Uppercase']=uc
+  d['Lowercase']=lc
+  d['Special Character']=sp
+  return d
+print(func(a))
+print("22brs1213")
