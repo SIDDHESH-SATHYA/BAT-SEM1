@@ -1,0 +1,6 @@
+L1=['January','February','March','April','May','June','July','August','September','October','November','December']
+L2=[31,28,31,30,31,30,31,31,30,31,30,31]
+x=input('enter the month name:')
+for i in range(0,len(L1),1):
+    if x==L1[i]:
+        print(L2[i])
