@@ -1,0 +1,26 @@
+l=[]
+while True:
+  a=int(input())
+  if a==-1:
+    break
+  else:
+    l.append(a)
+STRONG=0
+NOT_STRONG=0
+for i in l:
+  c=i
+  sum=0
+  while i>0:  
+    b=i%10
+    fac=1
+    for j in range(b,0,-1):
+      fac=fac*j
+    sum+=fac
+    i=i//10
+  if sum==c:
+    STRONG+=1
+  else:
+    NOT_STRONG+=1
+print('STRONG',STRONG)
+print('NOT_STRONG',NOT_STRONG)
+print("22BRS1213")
