@@ -1,0 +1,9 @@
+a=eval(input())
+def func(n):
+  if n[0]==6 or n[-1]==6:
+    return True
+  else:
+    return False
+b=func(a)
+print(b)
+print("22brs1213")
