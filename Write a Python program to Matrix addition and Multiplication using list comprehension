@@ -1,0 +1,6 @@
+a=[[1,2],[3,4]]
+b=[[2,4],[5,10]]
+l=[a[i][j]+b[i][j] for i in range(len(a)) for j in range(len(a[i]))]
+print('a+b=',l)
+l1=[[sum(A*B for A,B in zip(a_row,b_col)) for b_col in zip(*b)] for a_row in a]
+print('a*b=',l1)
