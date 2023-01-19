@@ -1,0 +1,9 @@
+a=int(input())
+def pincode(n):
+  b=str(n)
+  if len(b)==6 and b[0]!=0:
+    print('Valid')
+  else:
+    print('Invalid')
+pincode(a)
+print("22brs1213")
