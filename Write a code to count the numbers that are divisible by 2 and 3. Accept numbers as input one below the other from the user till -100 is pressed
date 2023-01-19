@@ -1,0 +1,17 @@
+l=[]
+while True:
+  a=int(input())
+  if a==-100:
+    break
+  else:
+    l.append(a)
+dc=0
+ndc=0
+for i in l:
+  if i%2==0 and i%3==0:
+    dc+=1
+  else:
+    ndc+=1
+print('DivisibleCount is',dc)
+print('NotDivisibleCount is',ndc)
+print("22brs1213")
