@@ -1,0 +1,25 @@
+def func(h2=0,m2=0):
+  h=int(h2)
+  m=int(m2)
+  hp=0
+  mp=0
+  if h<5:
+    hp+=h*50
+  else:
+    a=h//5
+    r=h%5
+    hp+=(a*200)+(r*50)
+  mp+=m
+  tot=hp+mp
+  print(tot)
+h1=input()
+m1=input()
+if h1=='' and m1=='' :
+  func()
+elif m1=='':
+  func(h1)
+elif h1=='':
+  func(m2=m1)
+else:
+  func(h1,m1)
+  print("22brs1213")
