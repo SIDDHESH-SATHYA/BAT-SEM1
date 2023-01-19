@@ -1,0 +1,13 @@
+def func(n):
+  for i in n:
+    if i not in l:
+      l.append(i)
+      d[i]=n.count(i)
+    else:
+      continue
+  return d
+a=input()
+d={}
+l=[' ']
+print("The Frequency Dictionary is: ",func(a))
+print("22brs1213")
