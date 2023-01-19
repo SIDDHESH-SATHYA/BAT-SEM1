@@ -1,0 +1,13 @@
+x=int(input('enter the count of numbers'))
+l=[]
+e=0
+o=0
+for i in range(0,x,1):
+    l.append(int(input('enter no:')))
+for j in l:
+    if j%2==0:
+        e+=1
+    else:
+        o+=1
+print('even count:',e)
+print('odd count:',o)
