@@ -1,0 +1,17 @@
+l=[]
+while True:
+  a=int(input())
+  if a==-1:
+    break
+  else:
+    l.append(a)
+Four_Divisible_Count=0
+Four_Not_Divisible_Count=0
+for i in l:
+  if i%4==0:
+    Four_Divisible_Count+=1
+  else:
+    Four_Not_Divisible_Count+=1
+print('Four_Divisible_Count',Four_Divisible_Count)
+print('Four_Not_Divisible_Count',Four_Not_Divisible_Count)
+print("Logesh Kaavyan,22BRS1216")
