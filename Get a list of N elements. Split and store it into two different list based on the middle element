@@ -1,0 +1,14 @@
+n=int(input())
+l1=[]
+l2=[]
+x=n
+while n>0:
+  a=int(input())
+  if n>x//2:
+    l1.append(a)
+  else:
+    l2.append(a)
+  n-=1
+print(l1)
+print(l2)
+print("22brs1213")
