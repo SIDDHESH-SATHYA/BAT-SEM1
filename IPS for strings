@@ -1,0 +1,13 @@
+n=int(input())
+l=[]
+l1=[]
+while n>0:
+  a=input()
+  n-=1
+  l.append(a)
+  l1.append(len(a))
+l1.sort()
+for i in l:
+  if l1[0]==len(i):
+    print(i)
+    print("22brs1213")
