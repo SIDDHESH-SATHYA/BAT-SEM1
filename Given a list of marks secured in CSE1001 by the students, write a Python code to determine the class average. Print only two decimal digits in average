@@ -1,0 +1,9 @@
+n=int(input())
+avg=0
+tot=n
+while n>0:
+  a=int(input())
+  avg+=a
+  n-=1
+print(avg/tot)
+print("22brs1213")
