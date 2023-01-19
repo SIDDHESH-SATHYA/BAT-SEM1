@@ -1,0 +1,2 @@
+dict1={"english":100,"maths":100,"science":100,"sst":100}
+print("The sum of the marks:",sum(dict1.values()))
