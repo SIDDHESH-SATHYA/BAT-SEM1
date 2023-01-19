@@ -1,0 +1,3 @@
+a="alb1b3b24"
+l=[i for i in a if i.isdigit()]
+print(l)
